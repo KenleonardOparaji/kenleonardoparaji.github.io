@@ -25,6 +25,7 @@ html{
     border-color: black;
     border-width: 3px;
     height: 175px;
+    margin: auto;
 }
 
 
@@ -56,6 +57,7 @@ html{
 #summaryblock{
     display: flex;
     margin: auto;
+    width: 1300px;
 }
 
 #summary{
@@ -131,18 +133,21 @@ html{
 }
 
 .experienceblock.nuprizm{
-    background-color: purple;
-    border: 5px solid white;
+    background: rgb(74,40,209);
+    background: linear-gradient(249deg, rgba(255,255,255) 0%, rgba(74,40,209) 95.92%);
+    border: 5px solid rgb(0, 0, 0);
 }
 
 .experienceblock.addisonconsultinggroup{
-    background-color: blue;
-    border: 5px solid yellow;
+    background: rgb(206,160,0);
+background: linear-gradient(249deg, rgba(206,160,0,1) 0%, rgba(19,25,100,1) 95.92%);
+    border: 5px solid #000000;
 }
 
 .experienceblock.therundown{
-    background-color: red;
-    border: 5px solid blue;
+    background: rgb(53,135,221);
+    background: linear-gradient(249deg, rgba(53,135,221,1) 0%, rgba(218,55,48,1) 95.92%);
+    border: 5px solid rgb(0, 0, 0);
 }
 
 .workicon.nuprizm{
@@ -191,11 +196,12 @@ html{
 .project.publicrelations{
     display: flex;
     flex-direction: column;
-    border: 5px solid white;
+    border: 5px solid rgb(0, 0, 0);
     height: 700px;
     border-radius: 30px;
-    color: white;
-    background-color: red;
+    color: rgb(255, 255, 255);
+    background: rgb(180,8,59);
+background: linear-gradient(69deg, rgba(180,8,59,1) 0%, rgba(255,255,255,1) 95.92%);
     line-height: 2rem;
 }
 
@@ -212,12 +218,14 @@ html{
 .project.webdev{
     display: flex;
     flex-direction: column;
-    border: 5px solid grey;
+    border: 5px solid rgb(0, 0, 0);
     height: 700px;
     border-radius: 30px;
-    color: white;
-    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    background: rgb(120,75,39);
+    background: linear-gradient(69deg, rgba(120,75,39,1) 0%, rgba(155,156,153,1) 88%);
     line-height: 2rem;
+
 }
 
 
@@ -252,21 +260,24 @@ html{
 .writing.dragonball{
     display: flex;
     flex-direction: column;
-    border: 5px solid white;
+    border: 5px solid rgb(0, 0, 0);
     height: 750px;
     border-radius: 30px;
-    background-color: rgb(5, 6, 54);
+    background: rgb(1,8,10);
+background: linear-gradient(69deg, #fbbc42 0%, rgba(231,106,36,1) 88%);
     color: white;
     line-height: 2rem;
+
 }
 
 .writing.ukraine{
     display: flex;
     flex-direction: column;
-    border: 5px solid rgb(255, 251, 0);
+    border: 5px solid rgb(0, 0, 0);
     height: 750px;
     border-radius: 30px;
-    background-color: rgb(0, 4, 255);
+    background: rgb(0,91,187);
+background: linear-gradient(69deg, rgba(0,91,187,1) 0%, rgba(255,213,0,1) 88%);
     color: white;
     line-height: 2rem; 
 }
@@ -296,16 +307,7 @@ html{
 }
 
 
-.project.webdev{
-    display: flex;
-    flex-direction: column;
-    border: 5px solid grey;
-    height: 700px;
-    border-radius: 30px;
-    color: white;
-    background-color: rgb(0, 0, 0);
-    line-height: 2rem;
-}
+
 
 .video{
     display: flex;
@@ -326,13 +328,15 @@ html{
 .video.nuprizm{
     border: 5px solid black;
     border-radius: 30px;
-    background-color: purple;
+    background: rgb(74,40,209);
+    background: linear-gradient(249deg, rgba(255,255,255) 0%, rgba(74,40,209) 95.92%);
     color: white;
 }
 
 .video.rundown{
-    border: 3px solid black;
-    background-color: red;
+    background: rgb(53,135,221);
+    background: linear-gradient(249deg, rgba(53,135,221,1) 0%, rgba(218,55,48,1) 95.92%);
+    border: 5px solid rgb(0, 0, 0);
     border-radius: 30px;
     color: white;
 }
@@ -410,6 +414,7 @@ html{
 
 #contact{
     margin-top: 1200px;
+    margin-left: auto;
 }
 
 .contactbuttons{
@@ -442,7 +447,7 @@ html{
 }
 
 #resume{
-    width: 400px;
+    width: 300px;
     height: 100px;
     background-color: purple;
     margin: auto;
@@ -450,6 +455,7 @@ html{
     display: flex;
     border-radius: 30px;
     text-decoration: none;
+    border: black 5px solid;
 
 }
 
@@ -457,8 +463,22 @@ html{
     margin: auto;
     text-decoration: none;
     color: white;
+    display: flex;
 
 }
+
+#button a{
+    text-decoration: none;
+    color: white;
+}
+
+.video a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 30px;
+}
+
 
 
 
@@ -494,13 +514,14 @@ html{
         </div>
     </div>
 
-    <a href="https://docs.google.com/document/d/1uwST_zYR0CIhfYjAZwUQaa29mDWTzDRJiou-ic80jZE/edit?usp=sharing" target="_blank">
         <div id="resume">
             <div id="button">
-                <h2>Download Resume</h2>
+                <a href="https://docs.google.com/document/d/1uwST_zYR0CIhfYjAZwUQaa29mDWTzDRJiou-ic80jZE/edit?usp=sharing" target="_blank">
+                    <h2>View Resume</h2>
+                </a>
             </div>
         </div>
-    </a>
+
     
     <div id="education">
         <h2 data-aos="fade-up" class="caption education">Education</h2>
@@ -536,7 +557,7 @@ html{
                         the company on body language, camera and editing techniques most suitable for Nuprizm to pull 
                         and retain engagement on TikTok.
                     </p>
-                    <p><strong>Skills: </strong><em>Editing, Writing, Journalism, Social Media, Data Research</em></p>
+                    <p><strong>Skills: </strong><em>CapCut, TikTok, Script Writing, Journalism, Social Media and Data Research</em></p>
                   
                 </div>
             </div>
@@ -551,8 +572,7 @@ html{
                           performing interns for the month when my session at the company was over and able to 
                           help newer employees to help the company.
                     </p>
-                    <p><strong>Skills: </strong><em>Pitching, Fundraising, Public Speaking, Team Building,
-                        Donor Relations
+                    <p><strong>Skills: </strong><em>Pitching, Fundraising, Public Speaking, Team Building and Donor Relations
                     </em></p>
                 </div>
                 
@@ -568,7 +588,7 @@ html{
                          in over 5,000 views, exposing the show to a new audience. Here, I learned about social 
                          media news shows and the production behind them.
                     </p>
-                    <p><strong>Skills: </strong><em>Media Production, Social Media, Public Speaking</em></p>
+                    <p><strong>Skills: </strong><em>Media Production, Social Media and Public Speaking</em></p>
                 </div>
             </div>
         </div>
@@ -583,13 +603,12 @@ html{
                     <div class="projectdetails">
                         <h3>#WhatsInYourBox</h3>
                         <p>My group was tasked to create a campaign for a publicly traded company. From a list 
-                            of eight companies, my group chose Jack-in-the-Box. We each had titles that determined 
-                            the part of the project we would work on, and I was in charge of the Strategy and Tactics 
-                            for the Jack-in-the-Box campaign, using my out-of-the-box thinking, to create a cohesive 
-                            project. In my strategy, I leveraged shared earned media and influencer marketing to create
-                            a unique campaign designed to appeal to young college students on college campuses near
-                            Jack-in-the-Box franchise stores.
+                            of eight companies, my group chose Jack-in-the-Box. In my group, I led the strategy and tactics
+                            for the campaign. I incorporated my creativity with PR principles and strategy
+                            leveraging shared earned media and influencer marketing to create
+                            a unique campaign that appealed to young college students on campuses near franchise stores.
                         </p>
+                        <p><strong>Skills: </strong><em>Research, Targeted Outreach, Influencer Marketing, Shared Media, Digital Campaigns and Advertising</em></p>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1000" class="project webdev">
@@ -599,9 +618,10 @@ html{
                         <p>For my Intro to Web Development's class, I was tasked with developing a website that 
                         demonstrated my knowledge 
                         of web development principles. My project was based on a passion project I had during 
-                        the pandemic---
-                        Pokémon Survivor. Using HTML, CSS, and JavaScript, 
-                        I transformed my four-year old Survivor simulations into a website that hosts web stories.</p>
+                        the pandemic—Pokémon Survivor. Using HTML, CSS, and JavaScript, 
+                        I transformed my four-year old Survivor simulations into a website that hosts creative web stories 
+                        featuring Pokemon characters.</p>
+                        <p><strong>Skills: </strong><em>Creative Writing, HTML, CSS, JavaScript and Github</em></p>
                     </div>
                 </div>
             </div>
@@ -640,7 +660,7 @@ html{
                     <h3>Nuprizm</h3>
                     <p>This is a sample TikTok I made for Nuprizm of how I could promote Nuprizm's app features while 
                         presenting an article about a political event. If you want to watch more news content from 
-                        Nuprizm, follow their Instagram or TikTok.
+                        Nuprizm, check us out on <a href="https://www.instagram.com/nuprizm/">Instagram</a> or <a href="https://www.tiktok.com/@nuprizm/">TikTok.</a>
                     </p>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1000" class="video rundown">
@@ -650,7 +670,7 @@ html{
                     <h3>The Rundown</h3>
                     <p>Here is a segment of mine as student news anchor at TheRundown. We cover a significant 
                         amount of stories, no matter how small, large or controversial they may be. To watch more 
-                        segments, check us out on <a href="">Instagram.</a>
+                        segments, check us out on <a href="https://www.instagram.com/therundownusc/">Instagram.</a>
                     </p>
                 </div>
             </div>
