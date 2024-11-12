@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)https://kenleonardoparaji.github.io/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Kenleonard Oparaji | Student Portfolio</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="./Kenleonard Oparaji _ Student Portfolio_files/aos.css">
+<link rel="stylesheet" href="./Kenleonard Oparaji _ Student Portfolio_files/slick.css">
+<link rel="stylesheet" href="./Kenleonard Oparaji _ Student Portfolio_files/slick-theme.css">
+<style>
+
+html{
+    scroll-behavior: smooth;
+}
+    
+    body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:  rgb(8, 24, 58);
+    font-size: large;
+}
+
+#menu{
+    display: flex;
+    border-radius: 50px;
+    flex-direction: column;
+    border-color: black;
+    border-width: 3px;
+    height: 175px;
+    margin: auto;
+}
+
+
+#navbar{
+    display: flex;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.tab{
+    transition: all 1s;
+    font-size: 24px;
+    width: 175px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+}
+
+.tab:hover{
+    transition: all 1s ease 0s;
+    background: purple;
+}
+
+#summaryblock{
+    display: flex;
+    margin: auto;
+    width: 1300px;
+}
+
+#summary{
+    font-size: 28px;
+    margin: auto;
+    width: 1300px;
+    height: 300px;
+    color: white;
+    line-height: 3rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+#portraitbox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+#portrait{
+    border-radius: 50%;
+    margin: auto;
+    width: 400px;
+    height: auto;
+}
+
+
+#scrollingcontainer{
+    margin: auto;
+    width: 1200px;
+    height: auto;
+    display: flex;
+}
+.sunset{
+    height: 550px;
+    margin: auto;
+    border-radius: 30px;
+    border: 3px;
+    border-color: black;
+}
+
+#name{
+    color: white;
+    margin: auto;
+}
+
+#experiences{
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#experienceblocks{
+    display: flex;
+    flex-direction: row;
+}
+
+.experienceblock{
+    display: flex;
+    width: 375px;
+    flex-direction: column;
+    height: 600px;
+    background-color: aliceblue;
+    margin: auto;
+    text-align: center;
+    line-height: 1rem;
+    border-radius: 50px;
+    color: white;
+}
+
+.experienceblock.annenbergmedia{
+    background: #900;
+    background: linear-gradient(249deg, #900 0%, gold);
+    border: 5px solid black;
+}
+
+.experienceblock.nuprizm{
+    background: rgb(74,40,209);
+    background: linear-gradient(249deg, rgba(255,255,255) 0%, rgba(74,40,209) 95.92%);
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.experienceblock.therundown{
+    background: rgb(53,135,221);
+    background: linear-gradient(249deg, rgba(53,135,221,1) 0%, rgba(218,55,48,1) 95.92%);
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.workicon.nuprizm{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    
+}
+
+.experiencedetails{
+    margin: 10px;
+}
+
+#work{
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+#workblocks{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+#workblocks > div{
+    display: flex;
+    width: 1200px;
+    height: 300px;
+    margin-top: 50px;
+    flex-direction: row;
+    
+}
+
+.project{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    height: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.project.publicrelations{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(0, 0, 0);
+    height: 700px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    background: rgb(180,8,59);
+background: linear-gradient(69deg, rgba(180,8,59,1) 0%, rgba(255,255,255,1) 95.92%);
+    line-height: 2rem;
+}
+
+.project a:hover{
+    transition: all 1s;
+    scale: 1.2;
+}
+
+
+.projectdetails{
+    margin: 10px;
+}
+
+.project.webdev{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(0, 0, 0);
+    height: 700px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    background: rgb(120,75,39);
+    background: linear-gradient(69deg, rgba(120,75,39,1) 0%, rgba(155,156,153,1) 88%);
+    line-height: 2rem;
+
+}
+
+
+
+.projecticon.jacklogo{
+    width: 417px;
+    margin-top: 21px;
+    height: auto;
+    border-radius: 25px;
+}
+
+
+
+.projecticon.pokemonsurvivor{
+    width: 371px;
+    height: auto;
+    margin-top: 20px;
+    
+}
+
+
+.writing{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    height: 700px;
+    margin: auto;
+    text-align: center;
+    margin-top: 400px;
+}
+
+.writing.pressrelease{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(0, 0, 0);
+    height: 750px;
+    border-radius: 30px;
+    background: rgb(1,8,10);
+background: linear-gradient(69deg, #fbbc42 0%, rgba(231,106,36,1) 88%);
+    color: white;
+    line-height: 2rem;
+
+}
+
+.writing.scripts{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(0, 0, 0);
+    height: 750px;
+    border-radius: 30px;
+    background: rgb(0,91,187);
+background: linear-gradient(69deg, rgba(0,91,187,1) 0%, rgba(255,213,0,1) 88%);
+    color: white;
+    line-height: 2rem; 
+}
+
+.writingicon.pressrelease{
+    width: 270px;
+    height: 350px;
+    margin-left: auto;
+    scale: .85;
+    transition: all 1s;
+}
+
+.writingicon.pressrelease:hover{
+    transition: all 1s;
+    scale: 1;
+}
+
+.writingicon.scripts{
+    width: 270px;
+    height: 350px;
+    margin-left: auto;
+    scale: .85;
+    transition: all 1s;
+}
+
+.writingicon.scripts:hover{
+    transition: all 1s;
+    scale: 1;
+}
+
+
+
+
+.video{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    height: auto;
+    margin: auto;
+    margin-top: 850px;
+    text-align: center;
+}
+
+.video video{
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+.video.nuprizm{
+    border: 5px solid black;
+    border-radius: 30px;
+    background: rgb(74,40,209);
+    background: linear-gradient(249deg, rgba(255,255,255) 0%, rgba(74,40,209) 95.92%);
+    color: white;
+}
+
+.video.rundown{
+    background: rgb(53,135,221);
+    background: linear-gradient(249deg, rgba(53,135,221,1) 0%, rgba(218,55,48,1) 95.92%);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    color: white;
+}
+
+.video p{
+    margin: 10px;
+    line-height: 2rem;
+}
+
+#education{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin: auto;
+    width: 1300px;
+}
+
+.educationblock{
+    width: 1300px;
+    height: 300px;
+    margin: auto;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    border: black 5px solid;
+}
+
+
+
+.educationlogo{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+.education.usclogo img{
+    width: 200px;
+    height: auto;
+}
+
+.education.graduation{
+    text-align: center;
+}
+
+.educationblock div{
+    margin: auto;
+}
+.workicon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#contact{
+    margin-top: 70px;
+}
+.caption{
+    color: white;
+}
+
+.caption.contact{
+    text-align: center;
+}
+
+.imageblock{
+    display: flex;
+    flex-direction: column;
+}
+
+.imageblock img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+#contact{
+    margin-top: 1200px;
+    margin-left: auto;
+}
+
+.contactbuttons{
+    display: flex;
+    margin: auto;
+    width: 215px;
+    height: 150px;
+}
+
+.contactbuttons img{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.imageblock img{
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+#name a{
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+}
+.experiencedetails p{
+    color: white;
+    line-height: 2rem;
+}
+
+#resume{
+    width: 300px;
+    height: 100px;
+    background-color: purple;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    border-radius: 30px;
+    text-decoration: none;
+    border: black 5px solid;
+
+}
+
+#button{
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    display: flex;
+
+}
+
+#button a{
+    text-decoration: none;
+    color: white;
+}
+
+.video a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+
+
+
+</style>
+
+</head><body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" data-new-gr-c-s-check-loaded="14.1207.0" data-gr-ext-installed="">
+    <div id="menu">
+        <div id="name">
+            <a href="https://kenleonardoparaji.github.io/"><h1>Kenleonard Oparaji</h1></a>
+        </div>
+        <div id="navbar">
+            <a class="tab summary" href="https://kenleonardoparaji.github.io/#summaryblock">Summary 📜</a>
+            <a class="tab education" href="https://kenleonardoparaji.github.io/#education">Education 🎓</a>
+            <a class="tab experiences" href="https://kenleonardoparaji.github.io/#experiences">Experiences 👨‍💼</a>
+            <a class="tab projects" href="https://kenleonardoparaji.github.io/#work">Projects 📝</a>
+            <a class="tab contact" href="https://kenleonardoparaji.github.io/#contact">Contact 📞</a>
+        </div>
+    </div>
+
+    <div id="scrollingcontainer" class="slick-initialized slick-slider"><button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button><div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 8400px; transform: translate3d(-2400px, 0px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" tabindex="-1" style="width: 1200px;"><div><img class="sunset three" src="./Kenleonard Oparaji _ Student Portfolio_files/sunset three.jpg" alt="sunset three" style="width: 100%; display: inline-block;"></div></div><div class="slick-slide" data-slick-index="0" aria-hidden="true" style="width: 1200px;" tabindex="-1"><div><img class="sunset one" src="./Kenleonard Oparaji _ Student Portfolio_files/sunset one.jpg" alt="sunset one" style="width: 100%; display: inline-block;"></div></div><div class="slick-slide slick-current slick-active" data-slick-index="1" aria-hidden="false" style="width: 1200px;"><div><img class="sunset two" src="./Kenleonard Oparaji _ Student Portfolio_files/sunset two.jpg" alt="sunset two" style="width: 100%; display: inline-block;"></div></div><div class="slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" style="width: 1200px;"><div><img class="sunset three" src="./Kenleonard Oparaji _ Student Portfolio_files/sunset three.jpg" alt="sunset three" style="width: 100%; display: inline-block;"></div></div><div class="slick-slide slick-cloned" data-slick-index="3" id="" aria-hidden="true" tabindex="-1" style="width: 1200px;"><div><img class="sunset one" src="./Kenleonard Oparaji _ Student Portfolio_files/sunset one.jpg" alt="sunset one" style="width: 100%; display: inline-block;"></div></div><div class="slick-slide slick-cloned" data-slick-index="4" id="" aria-hidden="true" tabindex="-1" style="width: 1200px;"><div><img class="sunset two" src="./Kenleonard Oparaji _ Student Portfolio_files/sunset two.jpg" alt="sunset two" style="width: 100%; display: inline-block;"></div></div><div class="slick-slide slick-cloned" data-slick-index="5" id="" aria-hidden="true" tabindex="-1" style="width: 1200px;"><div><img class="sunset three" src="./Kenleonard Oparaji _ Student Portfolio_files/sunset three.jpg" alt="sunset three" style="width: 100%; display: inline-block;"></div></div></div></div><button class="slick-next slick-arrow" aria-label="Next" type="button" style="">Next</button></div>
+
+    <div id="summaryblock">
+        <div id="summary">
+            <h1 data-aos="fade-up" id="intro" class="aos-init">👋 Hey, y'all! My name is Ken:</h1>
+            <p data-aos="fade-up" id="subtext" class="aos-init">A creative and out-spoken storyteller in Public Relations and Web Development with experience 
+                as a social media intern and student news anchor and always ready to learn more about the world. 
+                Also loves sunsets and travel. DAL ✈️ LAX </p> 
+        
+        </div>
+    </div>
+
+        <div id="resume">
+            <div id="button">
+                <a href="https://docs.google.com/document/d/1uwST_zYR0CIhfYjAZwUQaa29mDWTzDRJiou-ic80jZE/edit?usp=sharing" target="_blank">
+                    <h2>View Resume</h2>
+                </a>
+            </div>
+        </div>
+
+    
+    <div id="education">
+        <h2 data-aos="fade-up" class="caption education aos-init">Education</h2>
+        <div data-aos="fade-up" data-aos-duration="500" class="educationblock aos-init">
+            <div data-aos="fade-up" data-aos-duration="1000" class="education text aos-init">
+                <h3>University of Southern California</h3>
+                <h4>Bachelor of Arts in Public Relations and Minor in Web Development</h4>
+                <p><strong>Honors:</strong> Dean's List, Dean's Honors Student</p>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1500" class="education usclogo aos-init">
+                <h4 class="education graduation">
+                    Aug 2023 - December 2026
+                </h4>
+                <img src="./Kenleonard Oparaji _ Student Portfolio_files/usc.png" alt="usclogo">
+            </div>
+        </div>
+    </div>
+
+    <div id="experiences">
+        <h2 data-aos="fade-up" class="caption experiences aos-init">Relevant Experiences</h2>
+        <div id="experienceblocks">
+            <div data-aos="fade-up" data-aos-duration="500" class="experienceblock annenbergmedia aos-init">
+                 <div class="experiencedetails">
+                    <h3>Annenberg Media</h3>
+                    <img class="workicon annenbergmedia" src="./Kenleonard Oparaji _ Student Portfolio_files/annenbergmedia.png">
+                    <h3>Digital Election Coverage Reporter</h3>
+                    <h4>October 2024 - November 2024</h4>
+                    <p>As a digital election coverage reporter, I created content for Annenberg Media's Instagram page during 
+                        2024 general election. Before the election, I met with the digital coverage team to organize a plan 
+                        to cover this historic race. I used Canva to draft posts that covered the results of the presidential race and
+                        monitored race calls from the Associated Press.
+                    </p>
+                    <p><strong>Skills: </strong><em>Instagram, Canva, Journalism, Social Media and Media Monitoring</em></p>
+                  
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="experienceblock nuprizm aos-init">
+                <div class="experiencedetails">
+                    <h3>Nuprizm</h3>
+                    <img class="workicon nuprizm" src="./Kenleonard Oparaji _ Student Portfolio_files/nuprizm.jpg">
+                    <h3>Social Media Intern</h3>
+                    <h4>July 2024 - November 2024</h4>
+                    <p>As a social media intern, I publish content to the company's new TikTok account. In addition 
+                        to script writing, drafting and editing TikTok videos, I have I work directly with the CEO to ensure the content and brand
+                         would be in line with what the CEO envisioned for the company.
+                    </p>
+                    <p><strong>Skills: </strong><em>CapCut, TikTok, Writing, Journalism, Social Media, Data Research and Executive Thought Leadership</em></p>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1500" class="experienceblock therundown aos-init">
+                <div class="experiencedetails">
+                    <h3>The Rundown</h3>
+                    <img class="workicon rundown" src="./Kenleonard Oparaji _ Student Portfolio_files/therundown.JPG">
+                    <h3>Student News Anchor</h3>
+                    <h4>August 2023 - December 2023</h4>
+                    <p>As a student news anchor, I was responsible for communicating the week's stories engagingly
+                         while also respecting the subject matter of certain stories. As a freshman, I garnered 
+                         over 5,000 impressions, exposing the show to a new audience.
+                    </p>
+                    <p><strong>Skills: </strong><em>Media Production, Social Media and Public Speaking</em></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="work">
+        <h2 data-aos="fade-up" class="caption work aos-init">Projects and Works</h2>
+        <div id="workblocks">
+            <div class="workblock project">
+                <div data-aos="fade-up" data-aos-duration="500" class="project publicrelations aos-init">
+                    <a href="https://docs.google.com/presentation/d/1d56XehdffoVvcC1ejvVGTJL5jQ5pNh2ePheNqqLlQp8/edit?usp=sharing" target="_blank"><img class="projecticon jacklogo" src="./Kenleonard Oparaji _ Student Portfolio_files/jackinthebox.png"></a>
+                    <div class="projectdetails">
+                        <h3>#WhatsInYourBox</h3>
+                        <p>My group was tasked to create a campaign for a publicly traded company. From a list 
+                            of eight companies, my group chose Jack-in-the-Box. In my group, I led the strategy and tactics
+                            for the campaign. I incorporated my creativity with PR principles and strategy
+                            leveraging shared earned media and influencer marketing to create
+                            a unique campaign that appealed to young college students on campuses near franchise stores.
+                        </p>
+                        <p><strong>Skills: </strong><em>Research, Targeted Outreach, Influencer Marketing, Shared Media, Digital Campaigns and Advertising</em></p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="project webdev aos-init">
+                    <a href="https://uscwebdev.github.io/itp104-submissions-KenleonardOparaji/final_project/homepage.html" target="_blank"><img class="projecticon pokemonsurvivor" src="./Kenleonard Oparaji _ Student Portfolio_files/pokemonsurvivor.PNG"></a>
+                    <div class="projectdetails">
+                        <h3>Pokemon Survivor</h3>
+                        <p>For my Intro to Web Development's class, I was tasked with developing a website that 
+                        demonstrated my knowledge 
+                        of web development principles. My project was based on a passion project I had during 
+                        the pandemic—Pokémon Survivor. Using HTML, CSS, and JavaScript, 
+                        I transformed my four-year old Survivor simulations into a website that hosts creative web stories 
+                        featuring Pokemon characters.</p>
+                        <p><strong>Skills: </strong><em>Creative Writing, HTML, CSS, JavaScript and Github</em></p>
+                    </div>
+                </div>
+            </div>
+            <div class="workblock writing">
+                <div data-aos="fade-up" data-aos-duration="1000" class="writing pressrelease aos-init">
+                    <a href="https://docs.google.com/document/d/13iNKcKMYnV9nk2JkfCgjv1HlBILsfZcGR7rKix8yq9A/edit?usp=sharing" target="_blank"><img class="writingicon pressrelease" src="./Kenleonard Oparaji _ Student Portfolio_files/pressrelease.jpg"></a>
+                    <div class="projectdetails">
+                        <h3>Halloween Carnival Press Release</h3>
+                        <p>This press release was for a midterm assignment. It's about the City of West Hollywood
+                            hosting its annual Halloween "Carnaval" in West Hollywood for the second time since the pandemic
+                             ended. I wanted to highlight the carnival's ability to bring people together and underscore West 
+                             Hollywood's wonderful nightlife.
+                        </p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="500" class="writing scripts aos-init">
+                    <a href="https://docs.google.com/document/d/1CmEnrhyCWEMYXcB6qjVMwqzIHPyeCFLEiV9zjkEjPeM/edit?usp=sharing" target="_blank"><img class="writingicon scripts" src="./Kenleonard Oparaji _ Student Portfolio_files/scripts.jpg"></a>
+                    <div class="projectdetails">
+                        <h3>Nuprizm Scripts</h3>
+                        <p>This is a collection of scripts I wrote for the Nuprizm platform throughout my time interning. From my first script in July to my 
+                            final script in November, the scripts became more concise, personable and convincing. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="workblock video">
+                <div data-aos="fade-up" data-aos-duration="500" class="video nuprizm aos-init">
+                    <video width="215" height="380" controls="">
+                        <source src="videos/nuprizm.mp4" type="video/mp4">
+                    </video>
+                    <h3>Nuprizm</h3>
+                    <p>This is one of my final TikToks I created for Nuprizm. I presented an overview of the article's perspective 
+                        while building a personality for the audience in line with the brand's mission. Check out more of my content 
+                        on <a href="https://www.tiktok.com/@nuprizm/">TikTok.</a>
+                    </p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="video rundown aos-init">
+                    <video width="215" height="380" controls="">
+                        <source src="videos/therundown.mp4" type="video/mp4">
+                    </video>
+                    <h3>The Rundown</h3>
+                    <p>Here is a segment of mine as student news anchor at The Rundown. We cover a significant 
+                        amount of stories, no matter how small, large or controversial they may be. To watch more 
+                        segments, check us out on <a href="https://www.instagram.com/therundownusc/">Instagram.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <div id="contact">
+        <h2 data-aos="fade-up" class="caption contact aos-init">Contact Me</h2>
+            <div class="imageblock">
+                <img src="./Kenleonard Oparaji _ Student Portfolio_files/portrait.jpg">
+                <div class="contactbuttons">
+                    <a href="mailto:oparajikenleonard.6145@gmail.com" target="_blank"><img data-aos="fade-up" data-aos-duration="1000" src="./Kenleonard Oparaji _ Student Portfolio_files/gmail.1024x1024.png" class="aos-init"></a>
+                    <a href="https://www.linkedin.com/in/kenleonard-oparaji/" target="_blank"><img data-aos="fade-up" data-aos-duration="1500" src="./Kenleonard Oparaji _ Student Portfolio_files/linkedin-original.1024x1024.png" class="aos-init"></a>
+                </div>
+            </div>
+    </div>
+
+
+    <script src="./Kenleonard Oparaji _ Student Portfolio_files/jquery-3.7.1.min.js.download"></script>
+    <script src="./Kenleonard Oparaji _ Student Portfolio_files/slick.js.download"></script>
+    <script>
+        $(document).ready(function(){
+            $('#scrollingcontainer').slick({ 
+            accessibility: true,
+            autoplay: true,
+            slidesToShow: 1,
+            autoplaySpeed: 3000,
+            slidesToScroll: 1,
+        });
+        });
+
+    </script>
+      <script src="./Kenleonard Oparaji _ Student Portfolio_files/aos.js.download"></script>
+      <script>
+        AOS.init();
+      </script>
+
+
+<iframe id="HuAr5Qlz" frameborder="0" src="./Kenleonard Oparaji _ Student Portfolio_files/translateSandbox.html" style="width: 0px; height: 0px; display: none;"></iframe></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
